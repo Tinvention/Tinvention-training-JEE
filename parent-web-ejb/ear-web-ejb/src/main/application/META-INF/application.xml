@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/application_7.xsd" version="7">
+  <description>Tinvention Training J2EE 7</description>
+  <display-name>ear-web-ejb</display-name>
+  <module>
+    <ejb>ejb.jar</ejb>
+  </module>
+  <module>
+    <web>
+      <web-uri>web.war</web-uri>
+      <context-root>/web</context-root>
+    </web>
+  </module>
+  <library-directory>lib</library-directory>
+</application>
