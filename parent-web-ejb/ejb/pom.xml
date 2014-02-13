@@ -17,6 +17,12 @@
 			<artifactId>javaee-api</artifactId>
 			<scope>provided</scope>
 		</dependency>
+		
+		<dependency>
+			<groupId>net.tinvention.training</groupId>
+			<artifactId>ejb-common</artifactId>
+		</dependency>
+		
 	</dependencies>
 	
 	<build>
