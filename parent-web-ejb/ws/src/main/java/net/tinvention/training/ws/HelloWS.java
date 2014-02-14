@@ -13,27 +13,22 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package net.tinvention.training.ejb;
+package net.tinvention.training.ws;
 
-import javax.naming.InitialContext;
+import javax.jws.WebService;
 
-import net.tinvention.training.ejb.stateless.Echo;
+@WebService
+public class HelloWS {
 
+	public String getGreeting(String msg) {
+		return "Hello: " + msg;
+	}
 
-public class MainClient  {
-
-	 public static void main(String args[]) {
-
-	        try {
-
-	            InitialContext ic = new InitialContext();
-	            Echo echo = (Echo) ic.lookup(Echo.class.getName()); //Same host, Glassfish default
-	            System.out.println("Echo bean says : " + echo.echoMsg("Test echo ...."));
-
-	        } catch(Exception e) {
-	            e.printStackTrace();
-	        }
-
-	    }
+	public GreetingWithNumber getGreetingWitNumber(MessageValue msg) {
+		GreetingWithNumber response = new GreetingWithNumber();
+		response.setNumberString(msg.getNumber().toString());
+		response.setMessage("Hello: " + msg.getMessage());
+		return response;
+	}
 
 }
