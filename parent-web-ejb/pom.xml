@@ -82,8 +82,7 @@
 						</webModule>
 					</modules>
 					<generateApplicationXml>true</generateApplicationXml>
-					<version>7</version> <!-- doesn't work with 7 , we need to wait they 
-						update the plugin -->
+					<version>7</version> <!-- doesn't work with 7 , we need to wait they update the plugin -->
 					<defaultLibBundleDir>lib</defaultLibBundleDir>
 				</configuration>
 			</plugin>
@@ -92,11 +91,16 @@
 
 	</build>
 
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
 	<modules>
 		<module>ear-web-ejb</module>
 		<module>ejb-common</module>
 		<module>ejb</module>
 		<module>web</module>
+		<module>ws</module>
 		<module>ejb-client</module>
 	</modules>
 </project>
