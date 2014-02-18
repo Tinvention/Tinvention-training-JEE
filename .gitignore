@@ -27,3 +27,11 @@ target/
 /parent-web-ejb/web/.classpath
 /parent-web-ejb/ejb/src/main/resources/META-INF/MANIFEST.MF
 /parent-web-ejb/ejb/src/main/resources/META-INF/ejb-jar.xml
+/parent-web-ejb/rs/.project
+/parent-web-ejb/rs/.settings
+/parent-web-ejb/rs/target
+/parent-web-ejb/rs/.classpath
+/parent-web-ejb/rs-client/.project
+/parent-web-ejb/rs-client/.settings
+/parent-web-ejb/rs-client/target
+/parent-web-ejb/rs-client/.classpath
