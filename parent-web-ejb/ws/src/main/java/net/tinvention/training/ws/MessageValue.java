@@ -1,9 +1,13 @@
 package net.tinvention.training.ws;
 
+import java.io.Serializable;
+
 import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement
-public class MessageValue {
+public class MessageValue implements Serializable {
+
+	private static final long serialVersionUID = 1L;
 
 	private String message;
 
