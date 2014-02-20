@@ -28,6 +28,7 @@ public class HelloWS {
 		GreetingWithNumber response = new GreetingWithNumber();
 		response.setNumberString(msg.getNumber().toString());
 		response.setMessage("Hello: " + msg.getMessage());
+		response.setCreated(msg.getCreated());
 		return response;
 	}
 

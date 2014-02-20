@@ -100,7 +100,10 @@
 		<module>ejb-common</module>
 		<module>ejb</module>
 		<module>web</module>
-		<module>ws</module>
 		<module>ejb-client</module>
+		<module>ws</module>
+		<!-- <module>ws-client</module> it needs wsdl published -->
+		<module>rs</module>
+		<!--  <module>rs-client</module> it needs wsdl published -->
 	</modules>
 </project>
