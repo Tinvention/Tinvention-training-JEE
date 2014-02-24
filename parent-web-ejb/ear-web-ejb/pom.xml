@@ -17,6 +17,12 @@
 			<version>0.0.1-SNAPSHOT</version>
 			<type>ejb</type>
 		</dependency>
+		<!-- <dependency>
+			<groupId>net.tinvention.training</groupId>
+			<artifactId>jpa</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			<type>ejb</type>
+		</dependency> -->
 		<dependency>
 			<groupId>net.tinvention.training</groupId>
 			<artifactId>ejb-common</artifactId>

@@ -75,6 +75,11 @@
 							<artifactId>ejb</artifactId>
 							<bundleFileName>ejb.jar</bundleFileName>
 						</ejbModule>
+					<!-- 	<ejbModule>
+							<groupId>net.tinvention.training</groupId>
+							<artifactId>jpa</artifactId>
+							<bundleFileName>jpa.jar</bundleFileName>
+						</ejbModule> -->
 						<webModule>
 							<groupId>net.tinvention.training</groupId>
 							<artifactId>web</artifactId>

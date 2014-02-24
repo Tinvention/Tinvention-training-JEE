@@ -48,6 +48,7 @@ public class ProductRS {
   @Context
   private UriInfo uriInfo;
 
+
   //@formatter:off
     /** 
         1. Respond to a GET request on the following web-service endpoint:
@@ -70,7 +71,7 @@ public class ProductRS {
     p.setMake("Acme Corporation ... ");
     p.setPurchaseDate(new Date());
     p.setName("Best product ...");
-
+    
     return p;
   }
 

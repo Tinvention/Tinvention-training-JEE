@@ -51,7 +51,7 @@ public class CounterServlet extends HttpServlet {
     }
     if (req.getParameter("dec") != null) {
       counter.decrement();
-      singletonCounter.increment();
+      singletonCounter.decrement();
     }
 
     PrintWriter writer = res.getWriter();
