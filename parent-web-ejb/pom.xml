@@ -25,6 +25,15 @@
 				<artifactId>gf-client</artifactId>
 				<version>4.0</version>
 			</dependency>
+			<dependency>
+				<groupId>junit</groupId>
+				<artifactId>junit</artifactId>
+				<version>4.11</version>
+				<scope>test</scope>
+			</dependency>
+
+		
+
 		</dependencies>
 	</dependencyManagement>
 
@@ -75,7 +84,7 @@
 							<artifactId>ejb</artifactId>
 							<bundleFileName>ejb.jar</bundleFileName>
 						</ejbModule>
-					<!-- 	<ejbModule>
+						<!-- 	<ejbModule>
 							<groupId>net.tinvention.training</groupId>
 							<artifactId>jpa</artifactId>
 							<bundleFileName>jpa.jar</bundleFileName>
@@ -109,6 +118,6 @@
 		<module>ws</module>
 		<!-- <module>ws-client</module> it needs wsdl published -->
 		<module>rs</module>
-		<!--  <module>rs-client</module> it needs wsdl published -->
+		<!-- <module>rs-client</module> it needs wsdl published -->
 	</modules>
 </project>

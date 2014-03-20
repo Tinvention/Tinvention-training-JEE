@@ -10,23 +10,38 @@
 		<version>0.0.1-SNAPSHOT</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
-	
+
 	<dependencies>
 		<dependency>
 			<groupId>javax</groupId>
 			<artifactId>javaee-api</artifactId>
 			<scope>provided</scope>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>net.tinvention.training</groupId>
 			<artifactId>ejb-common</artifactId>
 		</dependency>
-		
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.glassfish.extras</groupId>
+			<artifactId>glassfish-embedded-static-shell</artifactId>
+			<version>4.0</version>
+			<scope>system</scope>
+			<systemPath>${env.GLASSFISH_HOME}/lib/embedded/glassfish-embedded-static-shell.jar</systemPath>
+		</dependency>
+
+
 	</dependencies>
-	
+
 	<build>
 		<finalName>${project.artifactId}</finalName>
-    </build>
+	</build>
 
 </project>
